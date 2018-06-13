@@ -6,6 +6,8 @@
 //  Copyright © 2018 Ymagis. All rights reserved.
 //
 
+// need ti fix log system !!
+
 #pragma once
 #include <libtorrent/alert_types.hpp>
 #include <libtorrent/session.hpp>
