@@ -1,0 +1,17 @@
+//
+//  config.xcconfig
+//  nbp-lib-torrent
+//
+//  Created by Frachop on 13/06/2018.
+//  Copyright © 2018 Ymagis. All rights reserved.
+//
+
+LIBTORRENT_HEADERS_DIR=/usr/local/Cellar/libtorrent-rasterbar/1.1.7/include
+LIBTORRENT_LIBS_DIR=/usr/local/Cellar/libtorrent-rasterbar/1.1.7/lib
+BOOST_HEADERS_DIR=/usr/local/Cellar/boost/1.67.0_1/include
+BOOST_LIBS_DIR=/usr/local/Cellar/boost/1.67.0_1/lib
+OPENSSL_HEADERS_DIR=/usr/local/Cellar/openssl/1.0.2o_1/include
+OPENSSL_LIBS_DIR=/usr/local/Cellar/openssl/1.0.2o_1/lib
+
+SPDLOG_HEADERS_DIR = /Users/frachop/dev/ymagis/nbp-rpclibtorrent/thirdparty/spdlog/include
+HEADER_SEARCH_PATHS = $(BOOST_HEADERS_DIR) $(SPDLOG_HEADERS_DIR) $(THIRDPARTY_DIR) $(LIBTORRENT_HEADERS_DIR) $(OPENSSL_HEADERS_DIR)
